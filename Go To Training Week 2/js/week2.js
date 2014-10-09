@@ -24,9 +24,10 @@ var yearBorn = prompt("What year were you born?");
 
 //Console. log out the response
 console.log(yearBorn);
+
 //Current year and subtract year they were born
 
-//Creat a variable for the current year
+//Create a variable for the current year
 
 var currentYear = 2014;
 
@@ -34,4 +35,18 @@ var currentYear = 2014;
 var age = currentYear - yearBorn ;
 
 //Alert user with their age
-alert(name=" you are "+age+" years old.");
+alert(name+" you are "+age+" years old.");
+
+
+//Let's make this more complex
+//How old will the user be in the future....
+
+//Ask the user, how many years in the future they would like to know
+var yearsMore = prompt("How many years in the future would you like to know?");
+console.log(yearsMore);
+
+//Calculate our future age
+var futureAge = age + parseInt(yearsMore);
+console.log(futureAge);
+
+

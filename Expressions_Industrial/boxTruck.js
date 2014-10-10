@@ -1,8 +1,8 @@
 /*
- Mark Barber
- WPF 1408 Section 02
- Expressions
- 10-09-2014
+Mark Barber
+WPF 1408 Section 02
+Expressions
+10-09-2014
  */
 
 // "What sized box truck do I need for my customer?"
@@ -17,9 +17,11 @@ var l = prompt("Enter Length of Generator")
 v = w * h * l
 
 if (volume > 500)
-    alert("Select the large box truck.");
+	alert("Select the large box truck.");
+	
+	else
+		if (volume < 500)
+		alert("Select the small box truck.");
+		
 
-else
-if (volume < 500)
-    alert("Select the small box truck.");
 

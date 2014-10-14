@@ -20,8 +20,8 @@ Expressions
  // I don't care what the temperature actually is, just if I should wear my jacket or not, and I know I am comfortable at 60+ degrees Fahrenheit
  //Add if/then statement and appropriate alert text
 
- if (degFahren <60)
-     alert ("Wear your jacket today");
+ if (degFahren < 60)
+     alert("Wear your jacket today.");
 
  else {
      alert("Do not wear your jacket today.");
